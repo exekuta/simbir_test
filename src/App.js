@@ -9,7 +9,6 @@ import {
   Typography,
   } from "@material-ui/core";
 import { WeatherDisplay } from "./WeatherDisplay.js";
-import "./App.css";
 
 import kazan from './images/kazan.jpg';
 import samara from './images/samara.jpg';
@@ -46,7 +45,7 @@ const App = () => {
   const classes = useStyles();
   return (
     <div>
-      <AppBar position="static" className="App-header">
+      <AppBar position="static">
         <Toolbar>
           <Grid container >
             <Grid item xs={2} />
