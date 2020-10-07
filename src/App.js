@@ -13,6 +13,9 @@ import { WeatherDisplay } from "./WeatherDisplay.js";
 import kazan from './images/kazan.jpg';
 import samara from './images/samara.jpg';
 import saransk from './images/saransk.jpg';
+import ulyanovsk from './images/ulyanovsk.jpg';
+import krasnodar from './images/krasnodar.jpg';
+import dimitrovgrad from './images/dimitrovgrad.jpg';
 
 const useStyles = makeStyles((theme) => ({
   button: {
@@ -32,11 +35,11 @@ const useStyles = makeStyles((theme) => ({
 
 const PLACES = [
   { name: "Kazan'", id: "551487", img: kazan },
-  { name: "Ulyanovsk", id: "479123", img: kazan },
+  { name: "Ulyanovsk", id: "479123", img: ulyanovsk },
   { name: "Samara", id: "499099", img: samara },
   { name: "Saransk", id: "498698", img: saransk },
-  { name: "Dimitrovgrad", id: "566199", img: kazan },
-  { name: "Krasnodar", id: "542420", img: kazan },
+  { name: "Dimitrovgrad", id: "566199", img: dimitrovgrad },
+  { name: "Krasnodar", id: "542420", img: krasnodar },
 ];
 
 const App = () => {

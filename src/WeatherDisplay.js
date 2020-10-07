@@ -1,5 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { Card, CardActionArea, CardMedia, CardContent } from "@material-ui/core";
+import {
+  Card,
+  CardActionArea,
+  CardMedia,
+  CardContent
+} from "@material-ui/core";
 
 export const WeatherDisplay = (props) => {
   const { id, img } = props;
